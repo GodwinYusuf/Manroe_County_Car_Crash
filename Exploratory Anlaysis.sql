@@ -3,7 +3,7 @@ Author :     	Godwin Yusuf
 Date: 	     	08:55 17/08/2024
 Title: 	     	Manroe Car Crash Analysis
 Tool: 	     	SQL on Github
-Email:	    godwin.yusuf@outlook.com 
+Email:	        godwin.yusuf@outlook.com 
 Project Source:  https://www.kaggle.com/datasets/jacksondivakarr/car-crash-dataset
 **/
 
