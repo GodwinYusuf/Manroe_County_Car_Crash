@@ -42,7 +42,7 @@ ORDER BY 2 DESC;
 
 
 
-##### Most reported location
+-- Most reported location
 SELECT 
     `Reported_location`,
     COUNT(`Reported_location`) AS ` Main Location`
@@ -61,7 +61,7 @@ FROM
 GROUP BY 1;
 
 
-##### Accident cause on each hour
+-- Accident cause on each hour
 SELECT 
     `time`,
     COUNT(`time`) AS hr
@@ -71,7 +71,7 @@ GROUP BY 1
 ORDER BY 2 DESC;
 
 
-##### Year with number of collision
+--- Year with number of collision
 SELECT 
     `year`,
     COUNT(`year`) AS YearNo
@@ -80,7 +80,7 @@ FROM
 GROUP BY 1
 ORDER BY 2 DESC;
 
-##### Weekend collison numbers
+-- Weekend collison numbers
 SELECT 
     weekend,
     COUNT(weekend) AS Weekend
@@ -90,7 +90,7 @@ GROUP BY 1
 ORDER BY 2 DESC;
 
 
-#### Month collision result
+--Month collision result
 SELECT 
     month_name,
     COUNT(month_name) AS month_name
@@ -100,7 +100,7 @@ GROUP BY 1
 ORDER BY 2 DESC;
 
 
-##### Long/Lat accident occurence 
+--- Long/Lat accident occurence 
 SELECT 
     longitude, latitude, COUNT(`collision type`) AS Location_count
 FROM
